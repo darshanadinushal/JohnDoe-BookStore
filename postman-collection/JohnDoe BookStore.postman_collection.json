@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "53c35a4f-f0be-4698-b5a5-3b32daf22a00",
+		"name": "JohnDoe BookStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1.A method to return a list of available books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/BookStore",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"BookStore"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2.\tA search method to find a book by containing string",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/BookStore/GetByname/Visual Studio 7: A Comprehensive Guide",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"BookStore",
+						"GetByname",
+						"Visual Studio 7: A Comprehensive Guide"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3.\tA method to return information about a specific book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/BookStore/GetByISBN/978-3-16-155410-0",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"BookStore",
+						"GetByISBN",
+						"978-3-16-155410-0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. create an order for a specific book from a specific store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"iSBNCode\":\"978-3-16-177050-0\",\r\n    \"storeIdentifier\" :\"StoreB-001\",\r\n    \"email\":\"darshanadinushal@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/BookOrder",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"BookOrder"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

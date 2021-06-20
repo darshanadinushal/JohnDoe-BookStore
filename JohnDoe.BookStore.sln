@@ -44,6 +44,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoreB", "StoreB", "{3400D0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnDoe.BookStore.Application.RestService.Integration.Tests", "Tests\JohnDoe.BookStore.Application.RestService.Integration.Tests\JohnDoe.BookStore.Application.RestService.Integration.Tests.csproj", "{E6517E1B-CEE8-4070-BEB8-5C456D9818CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{2526AFC2-69CA-403C-A3BA-79D5B0AA09A6}"
+	ProjectSection(SolutionItems) = preProject
+		postman-collection\JohnDoe BookStore.postman_collection.json = postman-collection\JohnDoe BookStore.postman_collection.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
