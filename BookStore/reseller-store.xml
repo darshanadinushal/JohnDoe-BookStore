@@ -1,0 +1,10 @@
+﻿<BookStoreCollection>
+  <BookStore>
+    <Name>StoreA</Name>
+    <Identifier>StoreA-001</Identifier>
+  </BookStore>
+  <BookStore>
+    <Name>StoreB</Name>
+    <Identifier>StoreB-001</Identifier>
+  </BookStore>
+</BookStoreCollection>

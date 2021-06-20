@@ -1,0 +1,22 @@
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+WORKDIR /src
+COPY ["src/JohnDoe.BookStore.Application.RestService/JohnDoe.BookStore.Application.RestService.csproj", "src/JohnDoe.BookStore.Application.RestService/"]
+RUN dotnet restore "src/JohnDoe.BookStore.Application.RestService/JohnDoe.BookStore.Application.RestService.csproj"
+COPY . .
+WORKDIR "/src/src/JohnDoe.BookStore.Application.RestService"
+RUN dotnet build "JohnDoe.BookStore.Application.RestService.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "JohnDoe.BookStore.Application.RestService.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "JohnDoe.BookStore.Application.RestService.dll"]

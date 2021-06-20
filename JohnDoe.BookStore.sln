@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBD75B90-3849-4035-921A-04DA13F7FE55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{095A9CF6-FB06-4E3B-977A-D58575FAF7B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JohnDoe.BookStore.Application.RestService", "src\JohnDoe.BookStore.Application.RestService\JohnDoe.BookStore.Application.RestService.csproj", "{EAD82CE1-B288-4266-B70B-C9CD8EA00D7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JohnDoe.BookStore.Application.Core", "src\JohnDoe.BookStore.Application.Core\JohnDoe.BookStore.Application.Core.csproj", "{90EA9A9A-E80D-44FC-9B01-FF88645CF4E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookStore", "BookStore", "{A15C062E-CDBE-4DA7-B088-BF26D2B8DCC7}"
+	ProjectSection(SolutionItems) = preProject
+		BookStore\reseller-store.xml = BookStore\reseller-store.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoreA", "StoreA", "{734C64A0-AC15-4E6D-9E97-21E72D488B58}"
+	ProjectSection(SolutionItems) = preProject
+		BookStore\StoreA\StoreA-2021-06-16.xml = BookStore\StoreA\StoreA-2021-06-16.xml
+		BookStore\StoreA\StoreA-2021-06-17.xml = BookStore\StoreA\StoreA-2021-06-17.xml
+		BookStore\StoreA\StoreA-2021-06-18.xml = BookStore\StoreA\StoreA-2021-06-18.xml
+		BookStore\StoreA\StoreA-2021-06-19.xml = BookStore\StoreA\StoreA-2021-06-19.xml
+		BookStore\StoreA\StoreA-2021-06-20.xml = BookStore\StoreA\StoreA-2021-06-20.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoreB", "StoreB", "{A9D88B02-832B-4C22-BA75-230DCC9B78AD}"
+	ProjectSection(SolutionItems) = preProject
+		BookStore\StoreB\StoreB-2021-06-18.xml = BookStore\StoreB\StoreB-2021-06-18.xml
+		BookStore\StoreB\StoreB-2021-06-19.xml = BookStore\StoreB\StoreB-2021-06-19.xml
+		BookStore\StoreB\StoreB-2021-06-20.xml = BookStore\StoreB\StoreB-2021-06-20.xml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JohnDoe.BookStore.Application.Shared", "src\JohnDoe.BookStore.Application.Shared\JohnDoe.BookStore.Application.Shared.csproj", "{F1C3053D-B793-49E4-AFFB-E0813A12F6F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JohnDoe.BookStore.Application.Manager", "src\JohnDoe.BookStore.Application.Manager\JohnDoe.BookStore.Application.Manager.csproj", "{270EC7DE-6F25-40D4-B52C-1215CE493208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orders", "Orders", "{F3AC8002-F03E-4166-A048-094AED92EBC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoreA", "StoreA", "{AB87572A-C1DF-4C1C-B7D4-E5B4DACC3AAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoreB", "StoreB", "{3400D07F-E664-4FA8-B10D-43687240A00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnDoe.BookStore.Application.RestService.Integration.Tests", "Tests\JohnDoe.BookStore.Application.RestService.Integration.Tests\JohnDoe.BookStore.Application.RestService.Integration.Tests.csproj", "{E6517E1B-CEE8-4070-BEB8-5C456D9818CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD82CE1-B288-4266-B70B-C9CD8EA00D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD82CE1-B288-4266-B70B-C9CD8EA00D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD82CE1-B288-4266-B70B-C9CD8EA00D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD82CE1-B288-4266-B70B-C9CD8EA00D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90EA9A9A-E80D-44FC-9B01-FF88645CF4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EA9A9A-E80D-44FC-9B01-FF88645CF4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EA9A9A-E80D-44FC-9B01-FF88645CF4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EA9A9A-E80D-44FC-9B01-FF88645CF4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C3053D-B793-49E4-AFFB-E0813A12F6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C3053D-B793-49E4-AFFB-E0813A12F6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C3053D-B793-49E4-AFFB-E0813A12F6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C3053D-B793-49E4-AFFB-E0813A12F6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270EC7DE-6F25-40D4-B52C-1215CE493208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270EC7DE-6F25-40D4-B52C-1215CE493208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270EC7DE-6F25-40D4-B52C-1215CE493208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270EC7DE-6F25-40D4-B52C-1215CE493208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6517E1B-CEE8-4070-BEB8-5C456D9818CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6517E1B-CEE8-4070-BEB8-5C456D9818CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6517E1B-CEE8-4070-BEB8-5C456D9818CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6517E1B-CEE8-4070-BEB8-5C456D9818CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAD82CE1-B288-4266-B70B-C9CD8EA00D7D} = {EBD75B90-3849-4035-921A-04DA13F7FE55}
+		{90EA9A9A-E80D-44FC-9B01-FF88645CF4E2} = {EBD75B90-3849-4035-921A-04DA13F7FE55}
+		{734C64A0-AC15-4E6D-9E97-21E72D488B58} = {A15C062E-CDBE-4DA7-B088-BF26D2B8DCC7}
+		{A9D88B02-832B-4C22-BA75-230DCC9B78AD} = {A15C062E-CDBE-4DA7-B088-BF26D2B8DCC7}
+		{F1C3053D-B793-49E4-AFFB-E0813A12F6F6} = {EBD75B90-3849-4035-921A-04DA13F7FE55}
+		{270EC7DE-6F25-40D4-B52C-1215CE493208} = {EBD75B90-3849-4035-921A-04DA13F7FE55}
+		{F3AC8002-F03E-4166-A048-094AED92EBC0} = {A15C062E-CDBE-4DA7-B088-BF26D2B8DCC7}
+		{AB87572A-C1DF-4C1C-B7D4-E5B4DACC3AAD} = {F3AC8002-F03E-4166-A048-094AED92EBC0}
+		{3400D07F-E664-4FA8-B10D-43687240A00A} = {F3AC8002-F03E-4166-A048-094AED92EBC0}
+		{E6517E1B-CEE8-4070-BEB8-5C456D9818CC} = {095A9CF6-FB06-4E3B-977A-D58575FAF7B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E8A30A-C510-425F-836F-C1508081BDB1}
+	EndGlobalSection
+EndGlobal

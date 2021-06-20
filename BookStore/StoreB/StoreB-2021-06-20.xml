@@ -1,0 +1,52 @@
+﻿<bookCollection>
+  <book>
+    <author>Gambardella, Matthew</author>
+    <name>XML Developer's Guide</name>
+    <count>20</count>
+    <price>40.85</price>
+    <isbnCode>978-3-16-148410-0</isbnCode>
+  </book>
+  <book>
+    <author>Ralls, Kim</author>
+    <name>Midnight Rain</name>
+    <count>5</count>
+    <price>7.95</price>
+    <isbnCode>978-3-16-158415-0</isbnCode>
+  </book>
+  <book>
+    <author>J. K. Rowling</author>
+    <name>Harry Potter and the Sorcerer’s Stone </name>
+    <count>2</count>
+    <price>55.80</price>
+    <isbnCode>978-3-16-177050-0</isbnCode>
+  </book>
+  <book>
+    <author>J. K. Rowling</author>
+    <name>Harry Potter and the Chamber of Secrets </name>
+    <count>13</count>
+    <price>65.95</price>
+    <isbnCode>978-3-16-151550-0</isbnCode>
+  </book>
+  <book>
+    <author>Corets, Eva</author>
+    <name>The Sundered Grail</name>
+    <count>5</count>
+    <price>7.95</price>
+    <isbnCode>978-3-16-143000-0</isbnCode>
+  </book>
+  <book>
+    <author>Randall, Cynthia</author>
+    <name>Lover Birds</name>
+    <count>13</count>
+    <price>4.95</price>
+    <isbnCode>978-3-16-150330-0</isbnCode>
+  </book>
+  <book>
+    <author>Thurman, Paula</author>
+    <name>Splish Splash</name>
+    <count>0</count>
+    <price>4.95</price>
+    <isbnCode>978-3-16-150222-0</isbnCode>
+  </book>
+</bookCollection>
+

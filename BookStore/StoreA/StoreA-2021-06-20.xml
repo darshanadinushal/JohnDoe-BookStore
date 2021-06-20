@@ -1,0 +1,86 @@
+﻿<bookCollection>
+  <book>
+    <author>Gambardella, Matthew</author>
+    <name>XML Developer's Guide</name>
+    <count>10</count>
+    <price>44.95</price>
+    <isbnCode>978-3-16-148410-0</isbnCode>
+  </book>
+  <book>
+    <author>Ralls, Kim</author>
+    <name>Midnight Rain</name>
+    <count>20</count>
+    <price>5.95</price>
+    <isbnCode>978-3-16-158415-0</isbnCode>
+  </book>
+  <book>
+    <author>Corets, Eva</author>
+    <name>Maeve Ascendant</name>
+    <count>2</count>
+    <price>5.95</price>
+    <isbnCode>978-3-16-147050-0</isbnCode>
+  </book>
+  <book>
+    <author>Corets, Eva</author>
+    <name>Oberon's Legacy</name>
+    <count>45</count>
+    <price>5.95</price>
+    <isbnCode>978-3-16-150410-0</isbnCode>
+  </book>
+  <book>
+    <author>Corets, Eva</author>
+    <name>The Sundered Grail</name>
+    <count>15</count>
+    <price>5.95</price>
+    <isbnCode>978-3-16-143000-0</isbnCode>
+  </book>
+  <book>
+    <author>Randall, Cynthia</author>
+    <name>Lover Birds</name>
+    <count>33</count>
+    <price>4.95</price>
+    <isbnCode>978-3-16-150330-0</isbnCode>
+  </book>
+  <book>
+    <author>Thurman, Paula</author>
+    <name>Splish Splash</name>
+    <count>56</count>
+    <price>4.95</price>
+    <isbnCode>978-3-16-150222-0</isbnCode>
+  </book>
+  <book>
+    <author>Knorr, Stefan</author>
+    <name>Creepy Crawlies</name>
+    <count>26</count>
+    <price>4.95</price>
+    <isbnCode>978-3-16-155610-0</isbnCode>
+  </book>
+  <book>
+    <author>Kress, Peter</author>
+    <name>Paradox Lost</name>
+    <count>102</count>
+    <price>6.95</price>
+    <isbnCode>978-3-16-151290-0</isbnCode>
+  </book>
+  <book>
+    <author>O'Brien, Tim</author>
+    <name>Microsoft .NET: The Programming Bible</name>
+    <count>8</count>
+    <price>36.95</price>
+    <isbnCode>950-3-16-151290-0</isbnCode>
+  </book>
+  <book>
+    <author>O'Brien, Tim</author>
+    <name>MSXML3: A Comprehensive Guide</name>
+    <count>11</count>
+    <price>36.95</price>
+    <isbnCode>950-3-16-153390-0</isbnCode>
+  </book>
+  <book>
+    <author>Galos, Mike</author>
+    <name>Visual Studio 7: A Comprehensive Guide</name>
+    <count>0</count>
+    <price>49.95</price>
+    <isbnCode>977-3-16-153390-0</isbnCode>
+  </book>
+</bookCollection>
